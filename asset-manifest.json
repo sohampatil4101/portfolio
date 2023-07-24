@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfoli/static/css/main.822fb5fd.css",
-    "main.js": "/portfoli/static/js/main.071ec99a.js",
+    "main.css": "/portfoli/static/css/main.9889e7c0.css",
+    "main.js": "/portfoli/static/js/main.a9be0758.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfoli/static/js/787.1ed0c42c.chunk.js",
     "static/media/soham_darshan-removebg-preview.png": "/portfoli/static/media/soham_darshan-removebg-preview.f4cc187791882c6df137.png",
+    "static/media/brain.png": "/portfoli/static/media/brain.fb995d306f6b99940cea.png",
     "static/media/webdev.png": "/portfoli/static/media/webdev.a3406fa6b026d3bd5185.png",
     "index.html": "/portfoli/index.html",
-    "main.822fb5fd.css.map": "/portfoli/static/css/main.822fb5fd.css.map",
-    "main.071ec99a.js.map": "/portfoli/static/js/main.071ec99a.js.map",
+    "main.9889e7c0.css.map": "/portfoli/static/css/main.9889e7c0.css.map",
+    "main.a9be0758.js.map": "/portfoli/static/js/main.a9be0758.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfoli/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.822fb5fd.css",
-    "static/js/main.071ec99a.js"
+    "static/css/main.9889e7c0.css",
+    "static/js/main.a9be0758.js"
   ]
 }
