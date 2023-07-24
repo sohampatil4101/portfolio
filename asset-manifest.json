@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfoli/static/css/main.fa2eff8b.css",
+    "main.css": "/portfoli/static/css/main.b1585179.css",
     "main.js": "/portfoli/static/js/main.748774c4.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfoli/static/js/787.1ed0c42c.chunk.js",
     "static/media/soham_darshan-removebg-preview.png": "/portfoli/static/media/soham_darshan-removebg-preview.f4cc187791882c6df137.png",
     "static/media/webdev.png": "/portfoli/static/media/webdev.a3406fa6b026d3bd5185.png",
     "index.html": "/portfoli/index.html",
-    "main.fa2eff8b.css.map": "/portfoli/static/css/main.fa2eff8b.css.map",
+    "main.b1585179.css.map": "/portfoli/static/css/main.b1585179.css.map",
     "main.748774c4.js.map": "/portfoli/static/js/main.748774c4.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfoli/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa2eff8b.css",
+    "static/css/main.b1585179.css",
     "static/js/main.748774c4.js"
   ]
 }
