@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfoli/static/css/main.9889e7c0.css",
-    "main.js": "/portfoli/static/js/main.a9be0758.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfoli/static/js/787.1ed0c42c.chunk.js",
-    "static/media/soham_darshan-removebg-preview.png": "/portfoli/static/media/soham_darshan-removebg-preview.f4cc187791882c6df137.png",
-    "static/media/brain.png": "/portfoli/static/media/brain.fb995d306f6b99940cea.png",
-    "static/media/webdev.png": "/portfoli/static/media/webdev.a3406fa6b026d3bd5185.png",
-    "index.html": "/portfoli/index.html",
-    "main.9889e7c0.css.map": "/portfoli/static/css/main.9889e7c0.css.map",
-    "main.a9be0758.js.map": "/portfoli/static/js/main.a9be0758.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfoli/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.802bc701.css",
+    "main.js": "/portfolio/static/js/main.57151323.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/soham_darshan-removebg-preview.png": "/portfolio/static/media/soham_darshan-removebg-preview.f4cc187791882c6df137.png",
+    "static/media/brain.png": "/portfolio/static/media/brain.fb995d306f6b99940cea.png",
+    "static/media/loading.gif": "/portfolio/static/media/loading.9fc43abd80bea86aafcb.gif",
+    "static/media/webdev.png": "/portfolio/static/media/webdev.a3406fa6b026d3bd5185.png",
+    "index.html": "/portfolio/index.html",
+    "main.802bc701.css.map": "/portfolio/static/css/main.802bc701.css.map",
+    "main.57151323.js.map": "/portfolio/static/js/main.57151323.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9889e7c0.css",
-    "static/js/main.a9be0758.js"
+    "static/css/main.802bc701.css",
+    "static/js/main.57151323.js"
   ]
 }
