@@ -6,6 +6,30 @@
     box-sizing: border-box;
 }
 
+body{
+    animation: transitionIn 1.5s;
+}
+.loader{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateY('-180deg');
+    }   
+    
+    to{
+        opacity: 1;
+        transform: rotateY('0deg');
+
+    }
+}
+
 .home{
     height: 100vh;
     min-height: 650px;
@@ -54,14 +78,63 @@
 @media (max-width:742px) {
      .home{
         height: 100vh;
-        min-height: 1000px;
+        min-height: 900px;
+    }
+       
+}
+@media (max-width:463px) {
+     .home{
+        height: 100vh;
+        min-height: 950px;
     }
        
 }
 @media (max-width:420px) {
      .home{
         height: 100vh;
-        min-height: 1300px;
+        min-height: 920px;
+    }
+       
+}
+@media (max-width:380px) {
+     .home{
+        height: 100vh;
+        min-height: 900px;
+    }
+       
+}
+@media (max-width:320px) {
+     .home{
+        height: 100vh;
+        min-height: 850px;
+    }
+       
+}
+@media (max-width:283px) {
+     .home{
+        height: 100vh;
+        min-height: 920px;
+    }
+       
+}
+@media (max-width:270px) {
+     .home{
+        height: 100vh;
+        min-height: 1000px;
+    }
+       
+}
+@media (max-width:145px) {
+     .home{
+        height: 100vh;
+        min-height: 1100px;
+    }
+       
+}
+@media (max-width:145px) {
+     .home{
+        height: 100vh;
+        min-height: 1200px;
     }
        
 }
@@ -70,8 +143,24 @@
 
 @media (max-width:924px) {
      .project-contact{
-        height: 100vh;
-        min-height: 1500px;
+        height: 55%;
+        min-height: 950px;
+    }
+    
+    
+}
+@media (max-width:465px) {
+     .project-contact{
+        height: 55%;
+        min-height: 1000px;
+    }
+    
+    
+}
+@media (max-width:254px) {
+     .project-contact{
+        height: 55%;
+        min-height: 1050px;
     }
     
     
@@ -91,7 +180,7 @@
     margin-bottom: 5rem;
     border: 2px solid firebrick;
 }
-@media (max-width:742px) {
+@media (max-width:464px) {
     .header{
         justify-content: center;
     }
@@ -113,7 +202,6 @@
     border-radius: 55px;
     padding: 5px 15px;
     cursor: pointer;
-    /* text-decoration: underline 2px; */
 }
 
 .logo:hover{
@@ -121,6 +209,7 @@
     transition: all;
     transition-duration: 0.5s;
     animation: shake 0.25s;
+    text-decoration: underline 1px;
 }
 
 .logo h1{
@@ -135,6 +224,14 @@
     justify-content: space-evenly;
     border: 2px solid forestgreen;
 }
+
+@media (max-width:464px) {
+    .navbar {
+        width: 100%;
+    }
+    
+}
+
 .navbar li{
     margin: 20px 29px;
     list-style: none;
@@ -154,13 +251,26 @@
 }
 @media (max-width:490px) {
     .navbar li{
-        margin: 20px 8px;
+        margin: 3px 15px;
     }
     
 }
-@media (max-width:420px) {
+@media (max-width:350px) {
     .navbar li{
-        margin: 20px 80px;
+        margin: 3px 10px;
+    }
+    
+}
+@media (max-width:310px) {
+    .navbar li{
+        margin: 3px 5px;
+    }
+    
+}
+
+@media (max-width:270px) {
+    .navbar li{
+        margin: 2px 80px;
     }
     
 }
@@ -255,6 +365,10 @@
     border-radius: 45px;
     padding: 3px;
     border: 2px solid cyan;
+}
+.social-media a{
+    text-decoration: none;
+    color: #1a2e2e;
 }
 .social-media li .lucide{
     cursor: pointer;
@@ -352,7 +466,7 @@
 
 @media (max-width:420px) {
     .about-img img{
-        width: 100vw;
+        width: 90vw;
     }
     .about-info{
         width: 100vw;
@@ -376,7 +490,6 @@
 }
 .about-info h1, h4, h5{
     margin-top: 12px;
-    text-align: center;
 }
 .about-info h1{
     display: inline;
@@ -435,7 +548,6 @@
     margin: 12px 30px;
     color: white;
     border-radius: 25px;
-    border: 2px solid cyan;
     overflow: hidden;
 }
 @media (max-width:600px) {
@@ -460,6 +572,7 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    text-align: center;
 }
 .webdev-img{
     border-radius: 25px;
@@ -504,7 +617,6 @@
     justify-content: center;
     align-items: center;
     height: 400px;
-    margin-bottom: 50px;
 }
 /* .project::-webkit-scrollbar {
     width: 0.5em;
@@ -512,12 +624,6 @@
 
 
 
-@media (max-width: 465px) {
-    .project{
-        margin-bottom: 120px;
-    }
-    
-}
 .project .project-head{
     /* border: 2px solid firebrick; */
     display: flex;

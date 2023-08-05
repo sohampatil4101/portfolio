@@ -6,6 +6,7 @@ import ClientSlider from './slider'
 import img from './soham_darshan-removebg-preview.png'
 import webdev from './webdev.png'
 import appdev from './appdev.png'
+import ml from './brain.png'
 import Typed from 'typed.js';
 
 
@@ -15,6 +16,7 @@ export default function Home() {
   const [email, setEmail] = useState('')
   const [message, setMeassage] = useState('')
   const [button, setButton] = useState('Send')
+  const [count, setCount] = useState(0);
   
 const form = useRef();
   function sendmail(e){
@@ -161,7 +163,16 @@ const handleonchangeMessage = (event)=>{
       return () => {
         typed.destroy();
       };
-    }, []);
+    }, [count]);
+    setInterval(() => {
+      if(count === 0){
+        setCount(1)
+      }
+      else{
+        setCount(0)
+      }
+    }, 15000);
+    
 
   // Typing effect for name
   const so = React.useRef(null);
@@ -195,7 +206,6 @@ const handleonchangeMessage = (event)=>{
             <li> <a href="/home" style={{color: 'cyan'}}>Home</a></li>
             <li> <a href="#about">About</a></li>
             <li> <a href="#project">Projects</a></li>
-            <li> <a href="/project">Download CV</a></li>
             <li> <a href="#contact">Contact</a></li>
           </div>
         </div>
@@ -207,7 +217,7 @@ const handleonchangeMessage = (event)=>{
             <h1>and i'm a <p ref={el}></p></h1>
             <h3>Passionate problem solver with a track record of delivering innovative solutions.</h3>
             <div className="cv-contact">
-              <button><a className='cv' download href='cv'>Download CV</a></button>
+              <button><a className='cv' download='soham_resume.pdf' href='soham_resume.pdf'>Download CV</a></button>
               <button><a className='contact' href="#contact">Contact</a></button>
             </div>
             <div className='social-media'>
@@ -243,7 +253,7 @@ const handleonchangeMessage = (event)=>{
 
 
               <h4>As a student, I am an innovative web and app developer, dedicated to delivering exceptional solutions. My passion for creating intuitive designs and seamless user experiences ensures client satisfaction and leaves a lasting impression.</h4>
-              <h5> <a target='soham' href="mailto:patilsoham390@gmail.com"> <Mail size={20} className='lucide-mail' style={{borderRadius:"2px", backgroundColor: 'black'}} fill="black" /></a>
+              <h5> <a target='soham' href="mailto:patilsoham390@gmail.com"> <Mail size={20} className='lucide-mail' style={{borderRadius:"2px", backgroundColor: '#1a2e2e', 'color': 'cyan'}} fill="black" /></a>
               <a target='soham' href="mailto:patilsoham390@gmail.com">patilsoham390@gmail.com</a>
               </h5>
           </div>
@@ -273,7 +283,7 @@ const handleonchangeMessage = (event)=>{
 
             <div className="card">
               <div className="appdev-img">
-                <img src={appdev} alt="" />
+                <img src={ml} alt="" />
               </div>
               <h3>AIML</h3>
               <h4>(Python, SKlearn)</h4>

@@ -106,13 +106,13 @@ const ClientSlider = () => {
 
           <a className='project-topic-name' href='https://github.com/sohampatil4101/WarehouseManagementSystem-Django'>
             <h4>WareHouse-Management(Django)</h4>
-            <p>A Django-based warehouse management system website is a user-friendly and efficient platform designed to streamline and optimize warehouse operations. It allows users to manage inventory, track stock levels, monitor shipments, and handle order fulfillment processes seamlessly.</p>
+            <p>A Django-based warehouse management system website is a user-friendly and efficient platform designed to streamline and optimize warehouse operations. It allows users to manage inventory, track stock levels, handle order fulfillment processes seamlessly.</p>
           </a>
 
 
           <a className='project-topic-name' href='https://github.com/sohampatil4101/NewsApp-ClassBasedComponents'>
             <h4>NewsApp(React-ClassBasedComponents)</h4>
-            <p>A React-based news app website is a dynamic and responsive platform that delivers information to users in an engaging and user-friendly manner. Leveraging React's classcomponent-based and with NewsOrg's Api allowing users to filter content based on preferences, receive real-time updates.</p>
+            <p>A React-based news app website is a responsive platform that delivers information in an user-friendly manner. Leveraging React's classcomponent-based and with NewsOrg's Api allowing users to filter content based on preferences, receive real-time updates.</p>
           </a>
 
 
@@ -124,25 +124,25 @@ const ClientSlider = () => {
 
           <a className='project-topic-name' href='https://github.com/sohampatil4101/TextAnalyser-React'>
             <h4>TextAnalyser(React)</h4>
-            <p>A React-based text analyzer website is a powerful and intuitive tool that allows users to analyze and gain insights from text content. Leveraging React's dynamic UI components, users can input text, and the website will perform various analyses such as word count, character count, keyword extraction, and more. </p>
+            <p>A React-based text analyzer website is a intuitive tool that allows users to analyze text. Leveraging React's dynamic UI components, users can input text, and it perform various analyses such as word count, character count, keyword extraction, and more. </p>
           </a>
 
 
           <a className='project-topic-name' href='https://github.com/sohampatil4101/Todolist_django'>
             <h4>TodoList(Django)</h4>
-            <p>A Django-based to-do list website is a simple yet effective platform that allows users to create and manage their daily tasks and activities. Leveraging Django's powerful framework, where users can add, edit, and mark tasks as completed. The website's intuitive design and responsive layout ensure a seamless user experience across different devices.</p>
+            <p>A Django-based to-do list website is a simple yet effective platform that allows users to create and manage their daily tasks and activities. Leveraging Django's powerful framework, where users can add, edit, and mark tasks as completed.</p>
           </a>
 
 
           <a className='project-topic-name' href='https://github.com/sohampatil4101/RoomBuddies-django'>
             <h4>RoomBuddies(Django)</h4>
-            <p>RoomBuddies is a Django-based website that facilitates users in finding roommates, houses for sale, and rental properties. With an intuitive interface, users can search and filter listings based on their preferences, connect with potential roommates, and explore available houses for buying or renting. </p>
+            <p>RoomBuddies is a Django-based website that facilitates users in finding roommates, houses for sale, and rental properties. With an intuitive interface, users can search and filter listings based on their preferences. </p>
           </a>
 
 
           <a className='project-topic-name' href='https://github.com/sohampatil4101/Todolist_react'>
             <h4>TodoList(React)</h4>
-            <p>A React-based to-do list website is a simple yet effective platform that allows users to create and manage their daily tasks and activities. Leveraging React's powerful framework, where users can add, edit, and mark tasks as completed. The website's intuitive design and responsive layout ensure a seamless user experience across different devices.</p>
+            <p>A React-based to-do list website is a simple yet effective platform that allows users to create and manage their daily tasks and activities. Leveraging React's powerful framework, where users can add, edit, and mark tasks as completed.</p>
           </a>
 
 
